@@ -66,10 +66,9 @@ h1 {
 }
 
 .tempContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-  
+    display: flex;
+    justify-content: center;
+    padding-right: 70px;
 }
 
 .iconTemp {
@@ -218,6 +217,7 @@ span {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    padding-left: 150px;
   }
 
   
